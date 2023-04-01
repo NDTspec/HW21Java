@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         int cost = 10039;
-        int milesrule = 20;
-        int bonus = cost / milesrule;
-        if ((bonus * milesrule) > cost) {
+        int milesRule = 20;
+        int bonus = cost / milesRule;
+        if ((bonus * milesRule) > cost) {
             System.out.println(bonus - 1);
         }
         System.out.println("Ваш бонус:");
